@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Julius Sans One", sans-serif;
+    
+}
+.PRODUCT{
+    padding: 20px 30px;
+    text-align:center;
+}
+.PRODUCT-LIST{
+    display:flex;
+    gap:20px;
+}
+.PRODUCT-CARD{
+    width:25%;
+}
+.PRODUCT-CARD p{
+    color: hwb(0 60% 39%);
+}
+img{
+    width:100%;
+    height:auto;
+    background-color:#F1F1F1;
+    transition: 0.4s;
+    display:block;
+}
+img:hover{
+    transform: scale(1.2);
+}
+h1{
+    margin-bottom:35px;
+    
+}
+.PRODUCT-CARD .thumb{
+    position : relative;
+    overflow: hidden;
+}
+.PRODUCT-CARD .time{
+    position: absolute;
+    bottom:16px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 2px 5px;
+}
+.PRODUCT-CARD .SALE{
+    position: absolute;
+    top:15px;
+    left:15px;
+    background-color: rgb(186, 62, 62);
+    color: #fff;
+    padding: 5px 10px;
+}
+.PRODUCT-CARD p{
+    margin-top:10px;
+}
+h3{
+    margin:10px;
+    
+}
+.PRODUCT .price{
+    margin-bottom: 20px;
+    color:hwb(0 60% 39%);
+}
+a{
+    text-decoration: none;
+    display:block;
+    color:hwb(0 60% 39%);
+    border:0.5px solid hwb(0 60% 39%);
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+span{
+    text-decoration: line-through;
+}
+a:hover{
+    background-color: hwb(0 60% 39%);
+    color: #fff;
+}
